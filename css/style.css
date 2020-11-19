@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+max-width: 1920px;
+font-family: 'Great Vibes', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive;
+}
+
+/* reusable general classes */
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  clear: both;
+}
+
+
+
+.col-1, .col-12, .col-8, .col-2, .col-6{
+  height: 20vh;
+  border: 1px solid black;
+  background-color: pink;
+  text-align: center;
+}
+
+.col-12{
+
+}
+.row{
+  margin: 0 auto;
+}
+.row-nested > div{
+  height: 20vh;
+  background-color: salmon;
+  border: 1px solid white;
+  text-align: center;
+}
+
+
+/* /reusable general classes */
+
+/* header */
+
+/* main */
+
+/* footer */
