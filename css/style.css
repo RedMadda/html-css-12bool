@@ -39,11 +39,18 @@ font-family: 'Satisfy', cursive;
 .row{
   margin: 0 auto;
 }
+.row-nested{
+  width: 48vw;
+}
 .row-nested > div{
   height: 20vh;
   background-color: salmon;
   border: 1px solid white;
   text-align: center;
+}
+
+.row-nested > .col-8{
+ border-right: 2px solid black;
 }
 
 
