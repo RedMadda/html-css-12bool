@@ -33,14 +33,13 @@ font-family: 'Satisfy', cursive;
   text-align: center;
 }
 
-.col-12{
-
-}
 .row{
   margin: 0 auto;
 }
 .row-nested{
   width: 48vw;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 .row-nested > div{
   height: 20vh;
